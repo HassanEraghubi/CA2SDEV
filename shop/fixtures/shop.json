@@ -1,0 +1,61 @@
+[
+    {
+        "model": "shop.category",
+        "pk": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+        "fields": {
+            "name": "Protein",
+            "description": "Isolate Whey Protein"
+        }
+    },
+    {
+        "model": "shop.category",
+        "pk": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+        "fields": {
+            "name": "Creatine",
+            "description": "Creatine Powder"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "1b5e0aeb-c369-4107-8d53-323a753851f0",
+        "fields": {
+            "name": "Vanilla",
+            "description": "Vanilla Protein Powder.",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "100.00",
+            "stock": 3,
+            "available": true,
+            "created": "2022-11-09T14:28:17.802Z",
+            "updated": "2022-11-09T14:28:17.802Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "262c652c-5718-4135-a805-9d3b9f92dc88",
+        "fields": {
+            "name": "Chocolate",
+            "description": "Chocolate Protein Powder",
+            "category": "116fa26d-6580-4d1b-a319-8ad526551cb3",
+            "price": "67.00",
+            "stock": 34,
+            "available": true,
+            "created": "2022-11-09T14:36:51.639Z",
+            "updated": "2022-11-09T14:36:51.639Z"
+        }
+    },
+    {
+        "model": "shop.product",
+        "pk": "3538774b-eb10-4fc3-a9e5-4ee97ca83271",
+        "fields": {
+            "name": "Monohydrate",
+            "description": "Creatine Monohydrate",
+            "category": "3ee9d13e-3846-463f-86f7-d7e6ad6ecb55",
+            "price": "50.00",
+            "stock": 50,
+            "available": true,
+            "created": "2022-11-09T14:31:31.529Z",
+            "updated": "2022-11-09T14:31:31.529Z"
+        }
+    }
+    
+]
